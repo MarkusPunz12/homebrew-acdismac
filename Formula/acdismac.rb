@@ -1,12 +1,12 @@
 class Acdismac < Formula
   desc "ACDIS PKCS11 Mac"
   homepage "https://www.austriacard.at"
-  url "https://github.com/MarkusPunz12/ACDIS-PKCS11/releases/download/1.4.1/mac-p11module-1.4.1.tar.gz"
-  sha256 "11d0c3f8cbd9e3205177ba26218e8ce196767966fea6240a77940357c2a69115"
+  url "https://github.com/MarkusPunz12/ACDIS-PKCS11/releases/download/1.6.0/mac-p11module-1.6.0.tar.gz"
+  sha256 "a75379b08fc87070b6a4699fbd8df47f97e95662b61b0023bd7587fb7cd2cbf0"
 
   bottle do
-    root_url "https://github.com/MarkusPunz12/homebrew-acdismac/releases/download/acdismac-1.4.1"
-    sha256 monterey: "e730d4307897ef4d55e8fc250417999c09d3363a2a80e60ec4f2304e18688bd9"
+    root_url "https://github.com/MarkusPunz12/homebrew-acdismac/releases/download/acdismac-1.6.0"
+    sha256 monterey: "ce9e60bf53be131e50e8ee1eaf2a285e52841ab3566950bedbca3227f3d97958"
   end
   on_macos do
     def install

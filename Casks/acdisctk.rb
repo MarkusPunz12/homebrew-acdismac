@@ -1,6 +1,6 @@
 cask "acdisctk" do
   version "1.6.0"
-  sha256 "e98924e7cb7cebbfd83e84bcdb7b09b6cb8fce1ed9c3334f7f02393aafa3bffb"
+  sha256 "fbfc692eaba4f0e332c377dea3495d67342d998c7f52be9db560f5dfad2c344f"
   url "https://github.com/MarkusPunz12/ACDIS-CryptoTokenKit/releases/download/1.6.0/mac-ctk-1.6.0.tar.gz", verified: "github.com/MarkusPunz12/ACDIS-CryptoTokenKit"
   name "acdisctk"
   desc "ACDIS CryptoTokenKit"
